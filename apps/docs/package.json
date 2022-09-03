@@ -9,15 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "ui": "*",
     "next": "12.2.5",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "ui": "*"
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
+    "@conditioner/eslint-config": "*",
     "eslint": "7.32.0",
-    "eslint-config-custom": "*",
     "next-transpile-modules": "9.0.0",
     "tsconfig": "*",
     "@types/node": "^17.0.12",

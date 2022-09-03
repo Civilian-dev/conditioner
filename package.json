@@ -12,7 +12,7 @@
     "lint": "turbo run lint"
   },
   "devDependencies": {
-    "eslint-config-custom": "*",
+    "@conditioner/eslint-config": "*",
     "turbo": "latest"
   },
   "engines": {
