@@ -1,28 +1,14 @@
-# Turborepo starter
+# Conditioner
 
-This is an official Yarn v1 starter turborepo.
+Conditioner provides semantic conditions for string comparison and capture.
 
-## What's inside?
+It isn't intended to replace the full power of regex, just simplify it for some common use cases.
 
-This turborepo uses [Yarn](https://classic.yarnpkg.com/) as a package manager. It includes the following packages/apps:
+It was developed for messaging and chat-bot scripts, to compare conversational streams against listeners and capture user inputs with easy to reference keys.
 
-### Apps and Packages
+### Usage
 
-- `docs`: a [Next.js](https://nextjs.org) app
-- `web`: another [Next.js](https://nextjs.org) app
-- `ui`: a stub React component library shared by both `web` and `docs` applications
-- `eslint-config-custom`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `tsconfig`: `tsconfig.json`s used throughout the monorepo
-
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
-
-### Utilities
-
-This turborepo has some additional tools already setup for you:
-
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
+TBC
 
 ### Build
 
