@@ -1,4 +1,4 @@
 module.exports = {
   root: true,
-  extends: ['@conditioner/eslint-config']
+  extends: ['@conditioner/eslint-config/nextjs']
 }
