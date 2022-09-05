@@ -57,3 +57,20 @@ Learn more about the power of Turborepo:
 - [Scoped Tasks](https://turborepo.org/docs/core-concepts/scopes)
 - [Configuration Options](https://turborepo.org/docs/reference/configuration)
 - [CLI Usage](https://turborepo.org/docs/reference/command-line-reference)
+
+## TODO
+
+- [ ] Migrate original implementation:
+  - https://github.com/Amazebot/bbot/blob/master/packages/bbot/src/components/condition.ts
+  - https://github.com/Amazebot/bbot/blob/master/packages/bbot/src/components/condition.spec.ts
+- [ ] Migrate Readme to docs
+- [ ] Build with TSUP
+- [ ] Publish to NPM / GH
+- [ ] Add CJS version to builds
+- [ ] Archive old repo: https://github.com/timkinnane/conditioner/blob/master/src/index.coffee
+- [ ] Make test input component for docs
+- [ ] Make CLI for generating patterns
+- [ ] Implement changesets: https://github.com/changesets/changesets
+- [ ] Add range feature: https://www.npmjs.com/package/to-regex-range
+- [ ] Add dependency alerts
+- [ ] Generate API docs with TSDoc
