@@ -1,0 +1,5 @@
+{
+  "extends": "@conditioner/tsconfig/library.json",
+  "include": ["src/**/*.ts"],
+  "exclude": ["dist", "node_modules"]
+}
