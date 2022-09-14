@@ -142,5 +142,5 @@ describe('functions ➜ pattern', () => {
         expect(new RegExp(valueBefore('ping', true)).test('hear my pings')).toBe(false)
       })
     })
-  }
+  })
 })

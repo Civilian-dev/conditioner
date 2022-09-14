@@ -1,20 +1,13 @@
 /** @type {import('@jest/types').Config.InitialOptions} */
 export default {
-  preset: 'ts-jest/presets/default-esm',
-  globals: {
-    'ts-jest': {
-      useESM: true
-    }
-  },
+  roots: ['<rootDir>/src'],
   testEnvironment: 'node',
+  collectCoverage: true,
   collectCoverageFrom: ['src/**/*', '!**/index.ts'],
-  coverageDirectory: 'coverage',
+  testPathIgnorePatterns: ['/node_modules/', '/dist/'],
+  testMatch: ['**/*.test.ts'],
   transform: {
-    '^.+\\.ts?$': 'ts-jest',
+    '^.+\\.(t|j)sx?$': ['@swc/jest'],
   },
-  transformIgnorePatterns: ['<rootDir>/node_modules/'],
-  moduleNameMapper: {
-    '^(\\.{1,2}/.*)\\.js$': '$1'
-  },
-  clearMocks: true
+  clearMocks: true  
 }
